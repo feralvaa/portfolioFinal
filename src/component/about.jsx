@@ -59,9 +59,8 @@ export default class About extends React.Component {
 							}}
 						/>
 						<p className={"mytext pt-3 " + this.props.fadeIn}>
-							I love to transform ideas into reality using code. I
-							am passionate about using Javascript and animations
-							to create awesome user experiences.
+							I´m an enthusiastic developer.
+							Driven and determined.
 						</p>
 					</div>
 					<div
@@ -73,7 +72,7 @@ export default class About extends React.Component {
 							<div
 								className="progress-bar fill-80-bar"
 								role="progressbar"
-								style={{ width: 80 + "%" }}
+								style={{ width: 70 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
 								HTML5
@@ -83,7 +82,7 @@ export default class About extends React.Component {
 							<div
 								className="progress-bar fill-80-bar"
 								role="progressbar"
-								style={{ width: 80 + "%" }}
+								style={{ width: 60 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
 								CSS3
@@ -93,27 +92,18 @@ export default class About extends React.Component {
 							<div
 								className="progress-bar fill-90-bar"
 								role="progressbar"
-								style={{ width: 90 + "%" }}
+								style={{ width: 80 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
 								Javascript
 							</div>
 						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-60-bar"
-								role="progressbar"
-								style={{ width: 60 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								PHP
-							</div>
-						</div>
+
 						<div className="progress mb-3">
 							<div
 								className="progress-bar fill-80-bar"
 								role="progressbar"
-								style={{ width: 80 + "%" }}
+								style={{ width: 50 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
 								ReactJS
@@ -127,26 +117,6 @@ export default class About extends React.Component {
 								aria-valuemin="0"
 								aria-valuemax="100">
 								NodeJs
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-60-bar"
-								role="progressbar"
-								style={{ width: 60 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								SASS
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-80-bar"
-								role="progressbar"
-								style={{ width: 80 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								VanillaJS
 							</div>
 						</div>
 						<div className="progress mb-3">
